@@ -1,0 +1,10 @@
+{
+  "name": "ydl",
+  "version": "0.1.0",
+  "description": "Simple webui for YouTube downloads",
+  "main": "server.coffee",
+  "repository": "",
+  "author": "Petri Sirkkala <sirpete@iki.fi>",
+  "dependencies": {
+  }
+}
