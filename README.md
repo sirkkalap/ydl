@@ -14,7 +14,7 @@ So here I am reading and writing new code to learn and to share.
 
 ## What
 
-Copy and Paste url to Ydl and expect the server to fetch the video and
+Copy and Paste Youtube url to Ydl and expect your server to fetch the video and
 store it to some path.
 
 ## How
@@ -25,3 +25,5 @@ Using Angular frontend and http://rg3.github.io/youtube-dl/
 
 TODO: Add a suitable open licence here...
 
+Note that you must agree to YouTube legalities too, when using this. I can not
+take your responsibilities here.
