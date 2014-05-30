@@ -4,5 +4,5 @@ gulp = require 'gulp'
 
 gulp.task 'default', ['jade'] -> gulp.done()
 
-gulp.task 'jade', -> 
+gulp.task 'jade', ->
     gulp.done()
