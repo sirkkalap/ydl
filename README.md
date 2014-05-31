@@ -2,8 +2,8 @@
 
 ## Why
 
-I noticed that some of my favorite clips were being removed from YouTube and
-since thay are a part of my integrity and memories I started to download them
+I noticed that some of my favorite clips were being removed from YouTube.
+Since they are a part of my integrity and memories I started to download them
 before they are lost.
 
 After having done this manually for a while I thought: "Hmm. This could be
@@ -19,7 +19,7 @@ store it to some path.
 
 ## How
 
-Using Angular frontend and http://rg3.github.io/youtube-dl/
+Using Angular, NodeJS, Vows, Express and http://rg3.github.io/youtube-dl/
 
 ## Development instructions
 
