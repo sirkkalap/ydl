@@ -18,7 +18,7 @@
     "zombie": "^2.0.0-alpha31"
   },
   "scripts": {
-    "dev-start": "coffee server.litcoffee",
+    "dev-server": "coffee server.litcoffee",
     "gulp": "gulp",
     "test": "vows test/* --spec",
     "test-server": "coffee server.litcoffee"
