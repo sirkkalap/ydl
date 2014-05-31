@@ -6,16 +6,21 @@
   "repository": "https://github.com/sirkkalap/ydl.git",
   "author": "Petri Sirkkala <sirpete@iki.fi>",
   "dependencies": {
-    "coffee-script": "~1.7.1",
+    "coffee-script": "~1.6.1",
     "express": "~4.4.0"
   },
   "devDependencies": {
+    "events": "^1.0.1",
     "gulp": "^3.6.2",
-    "gulp-util": "^2.2.14"
+    "gulp-util": "^2.2.14",
+    "promise": "^5.0.0",
+    "vows": "^0.7.0",
+    "zombie": "^2.0.0-alpha31"
   },
   "scripts": {
     "dev-start": "coffee server.litcoffee",
     "gulp": "gulp",
-    "test": "gulp test"
+    "test": "vows test/* --spec",
+    "test-server": "coffee server.litcoffee"
   }
 }
