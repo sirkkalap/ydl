@@ -6,13 +6,15 @@
   "repository": "https://github.com/sirkkalap/ydl.git",
   "author": "Petri Sirkkala <sirpete@iki.fi>",
   "dependencies": {
-    "coffee-script": "~1.7.1"
+    "coffee-script": "~1.7.1",
+    "express": "~4.4.0"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
     "gulp-util": "^2.2.14"
   },
   "scripts": {
+    "dev-start": "coffee server.coffee",
     "gulp": "gulp",
     "test": "gulp test"
   }
