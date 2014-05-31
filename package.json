@@ -14,7 +14,7 @@
     "gulp-util": "^2.2.14"
   },
   "scripts": {
-    "dev-start": "coffee server.coffee",
+    "dev-start": "coffee server.litcoffee",
     "gulp": "gulp",
     "test": "gulp test"
   }
