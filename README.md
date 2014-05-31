@@ -23,12 +23,14 @@ Using Angular frontend and http://rg3.github.io/youtube-dl/
 
 ## Development instructions
 
-Install node `sudo pkg install node`. I used version 0.10. Internet says npm comes with it, but I had
-to install npm tooi `sudo pkg install npm`.
+Install node `sudo pkg install node`. Supported Node >= 0.10. Node 0.8 is
+unsupported and is missing required gulp version.
+
+Install npm, unless your node has it installed already `sudo pkg install npm`.
 
 Run `npm install` to install dependencies.
 
-Run `gulp`. I have gulp in `node_modules/.bin/gulp`.
+TODO: Building, testing and running to be continued
 
 ## Legal
 
